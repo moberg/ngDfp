@@ -272,7 +272,7 @@ angular.module('ngDfp', [])
                              .find("body")
                              .children().length === 0) {
                     // Hide it
-                    ngDfpAdContainer.$$setVisible(false, attrs.ngDfpAdHideWhenEmpty);
+                    //ngDfpAdContainer.$$setVisible(false, attrs.ngDfpAdHideWhenEmpty);
                   }
                   else {
                     ngDfpAdContainer.$$setVisible(true, attrs.ngDfpAdHideWhenEmpty);
